@@ -4,8 +4,7 @@
 
 
 # Integer boundaries 32 bits | -2,147,483,648 | +2,147,483,647 | Integer variables can't pass this value, this is called overflow.
-# So the max value of the number can be 19 (19! = 109641728), We can't calculate 20! with integer.
-# Because 20! is equal to 2,432,902,008, it's passing boundary of integer.
+# So the max value of the number can be 12
 
 .data
 	start_prompt : .asciiz "\nPlease enter integer for calculating factorial of that number.\n"
